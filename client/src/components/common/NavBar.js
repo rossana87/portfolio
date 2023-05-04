@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
@@ -14,10 +14,10 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
           <Nav>
-            <Nav.Link to="/" as={Link}>Home</Nav.Link>
-            <Nav.Link to="/about" as={Link}>About</Nav.Link>
-            <Nav.Link to="/projects" as={Link}>Projects</Nav.Link>
-            <Nav.Link to="/contact" as={Link}>Contact</Nav.Link>
+            <Link className='nav-link' activeClass='active' to='home' spy={true} smooth={true} offset={-106} duration={300}>Home</Link>
+            <Link className='nav-link' activeClass='active' to='about' spy={true} smooth={true} offset={-50} duration={300}>About</Link>
+            <Link className='nav-link' activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={300}>Projects</Link>
+            <Link className='nav-link' activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={300}>Contact</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

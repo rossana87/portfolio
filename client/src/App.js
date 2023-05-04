@@ -4,10 +4,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // Components
 import Home from './components/Home'
-import AboutPage from './components/about/AboutPage'
+import About from './components/about/About'
 import NavBar from './components/common/NavBar'
-import ContactPage from './components/contact/ContactPage'
-import ProjectPage from './components/projects/ProjectPage'
+import Contact from './components/contact/Contact'
+import Projects from './components/projects/Projects'
 
 const App = () => {
   // useEffect(() => {
@@ -21,17 +21,11 @@ const App = () => {
   return (
 
     <div className='site-wrapper'>
-
-      <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/projects" element={<ProjectPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-        </Routes>
-      </BrowserRouter>
-
+      <NavBar />
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
     </div>
   )
 }

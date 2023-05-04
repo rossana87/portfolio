@@ -2,7 +2,9 @@
 
 const Home = () => {
   return (
-    <h1>hello</h1>
+    <section id='home'>
+      <h1>Home</h1>
+    </section>
   )
 }
 export default Home

@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import './components/about.scss';
+@import './components/contact.scss';
+@import './components/home.scss';
+@import './components/navbar.scss';
+@import './components/projects.scss';
+@import './global/bases.scss';
+@import './global/variables.scss';
+
+
+
+
 * {
   box-sizing: border-box;
-}
-
-img {
-  display: inline-block;
-  width: 35px;
 }
