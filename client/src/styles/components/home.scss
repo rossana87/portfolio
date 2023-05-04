@@ -1,3 +1,29 @@
 #home {
-  height: 100vh;
+  display: flex;
+  height: 80vh;
+  margin-top: 30px;
+  align-items: flex-start;
+  justify-content: center;
+
+  .hello {
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  .name {
+    font-size: 50px;
+    color: #216c60;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+}
+
+.Typewriter__wrapper {
+  font-size: 25px;
+}
+
+.Typewriter__cursor {
+  font-size: 25px;
 }
