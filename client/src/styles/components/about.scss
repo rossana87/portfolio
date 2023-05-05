@@ -1,14 +1,17 @@
 #about {
   display: flex;
   font-family: 'Roboto', sans-serif;
+  height: 70vh;
 
 
-  .about-section {
+
+  .about-header {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
   }
 
-  .profile-picture {
+  .profile-pic {
     width: 40%;
     display: block;
     margin: 0 auto;

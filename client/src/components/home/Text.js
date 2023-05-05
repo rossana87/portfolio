@@ -6,6 +6,8 @@ function Text() {
     <Typewriter className='typewriter'
       options={{
         strings: [
+          'I am a Junior Front-End Developer',
+          'I am a Junior Back-End Developer',
           'I am a Junior Full-Stack Developer'
         ],
         autoStart: true,
