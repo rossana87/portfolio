@@ -5,20 +5,22 @@ import Col from 'react-bootstrap/Col'
 import Gif from '../../images/woman.gif'
 
 import Text from '../home/Text'
+import Social from '../home/Social'
+import Data from '../home/Data'
 
 
 const Home = () => {
   return (
-    <section id='home'>
+    <section className='home_section' id='home'>
       <Container>
         <Row className='justify-content-center'>
           <Col xs={12} sm={8} md={6} lg={5}>
             <Card.Body>
-              <Card.Title className='hello'>Hi, my name is</Card.Title>
-              <Card.Title className='name'>Rossana</Card.Title>
+              <Card.Title className='home_hello'>Hi, my name is</Card.Title>
+              <Card.Title className='home_name'>Rossana</Card.Title>
               <Text />
             </Card.Body>
-            <Card.Img src={Gif} />
+            <Card.Img className='home_image' src={Gif} />
           </Col>
         </Row>
       </Container>

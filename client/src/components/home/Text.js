@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect'
 
 function Text() {
   return (
-    <Typewriter className='typewriter'
+    <Typewriter className='data__subtitle typewriter'
       options={{
         strings: [
           'I am a Junior Front-End Developer',
