@@ -3,17 +3,21 @@
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
 
-  .skills-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .skills-header {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-bottom: 20px;
     color: #f1d5b8;
+  }
+
+  .skills-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .skills-card {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
   }
 }

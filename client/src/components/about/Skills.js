@@ -7,13 +7,13 @@ const Skills = () => {
   return (
     <section id="skills" className="skills section-bg">
       <Container>
-        <div className="skills-container">
+        <div className='skills-container'>
           <h3 className='skills-header'>Skills</h3>
           <Row>
             <Col lg={{ span: 5, offset: 1 }} className="mb-4 mb-lg-0">
               <Card className="skills-card">
                 <Card.Body>
-                  <Card.Title>Frontend Skills</Card.Title>
+                  <Card.Title className='skills-title'>Front-end Skills</Card.Title>
                   <Row>
                     <Col xs={6}>
                       <ul>
@@ -37,7 +37,7 @@ const Skills = () => {
             <Col lg={{ span: 5 }} className="ml-lg-4">
               <Card className="skills-card">
                 <Card.Body>
-                  <Card.Title>Backend Skills</Card.Title>
+                  <Card.Title className='skills-title'>Back-end Skills</Card.Title>
                   <Row>
                     <Col xs={6}>
                       <ul>

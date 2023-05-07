@@ -21,6 +21,21 @@
   padding: 20px;
 }
 
+#skills {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+#skills .skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#skills .skills-header {
+  display: flex;
+  justify-content: center;
+}
+
 #home {
   height: 70vh;
   display: flex;

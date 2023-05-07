@@ -5,9 +5,6 @@ import Col from 'react-bootstrap/Col'
 import Gif from '../../images/woman.gif'
 
 import Text from '../home/Text'
-import Social from '../home/Social'
-import Data from '../home/Data'
-
 
 const Home = () => {
   return (
@@ -20,7 +17,7 @@ const Home = () => {
               <Card.Title className='home_name'>Rossana</Card.Title>
               <Text />
             </Card.Body>
-            <Card.Img className='home_image' src={Gif} />
+            <Card.Img className='home_image' src='https://res.cloudinary.com/dtu5wu4i9/image/upload/v1683452977/Portfolio/cc7c4146-22c3-4772-9b78-dfb17f90dffb_loixus.jpg' />
           </Col>
         </Row>
       </Container>
