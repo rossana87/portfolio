@@ -4,24 +4,28 @@ import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 
+import Skills from '../about/Skills'
+
 
 const About = () => {
   return (
     <section id='about'>
       <Container>
         <Row className='justify-content-center'>
-          <Col md={6}>
-            <h3 className='about-header'>ABOUT ME</h3>
+          <Col md={8}>
+            <h3 className='about-header'>About me</h3>
             <Card.Body>
-              <Image className='profile-pic' src="https://res.cloudinary.com/dtu5wu4i9/image/upload/v1683295304/Portfolio/Picture_epcb8d.jpg" thumbnail />
-              <Card.Text className='about-description'>
-                <p>My enthusiasm, dedication,  project management skills and love for languages have enabled me to grow in my previous career.</p>
-                <p>I was introduced to coding at university and during this time I mainly used HTML and CSS, which I loved, but I felt quite restricted by the nature of the language. This led me to undertake an immersive Software Engineering Course at General Assembly to help me make a complete 180-degree change in my career as a developer.</p>
-                <p>When I&apos;m not on the computer, you can find me practising Calisthenics.</p>
+              <Image className='profile-pic' src="https://res.cloudinary.com/dtu5wu4i9/image/upload/v1683452977/Portfolio/cc7c4146-22c3-4772-9b78-dfb17f90dffb_loixus.jpg" thumbnail />
+              <Card.Text>
+                <div className='about-description'>
+                  <p>I was introduced to coding at university and during this time I mainly used HTML and CSS, which I loved, but I felt quite restricted by the nature of the language. This led me to undertake an immersive Software Engineering Course at General Assembly to help me make a complete 180-degree change in my career as a developer.</p>
+                  <p>When I&apos;m not coding, you&apos;ll find me practising Calisthenics, yoga or knitting on the sofa.</p>
+                </div>
               </Card.Text>
             </Card.Body>
           </Col>
         </Row>
+        <Skills />
       </Container>
 
     </section>

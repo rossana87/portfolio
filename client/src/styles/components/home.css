@@ -1,0 +1,53 @@
+#home {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+#home .home_hello {
+  font-size: 25px;
+  font-weight: 400;
+}
+#home .home_name {
+  font-size: 45px;
+  color: #f1d5b8;
+}
+#home .home_card_body {
+  margin-bottom: 20px;
+}
+#home .home_image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  margin-top: 15px;
+  margin: 0 auto;
+  box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.3);
+  order: 1;
+  justify-self: center;
+  width: 250px;
+  height: 250px;
+  animation: profile__animate 8s ease-in-out infinite 1s;
+}
+@keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.Typewriter__wrapper {
+  font-size: 20px;
+}
+
+.Typewriter__cursor {
+  font-size: 20px;
+}/*# sourceMappingURL=home.css.map */

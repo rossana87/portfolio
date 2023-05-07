@@ -15,7 +15,7 @@ const Home = () => {
       <Container>
         <Row className='justify-content-center'>
           <Col xs={12} sm={8} md={6} lg={5}>
-            <Card.Body>
+            <Card.Body className='home_card_body'>
               <Card.Title className='home_hello'>Hi, my name is</Card.Title>
               <Card.Title className='home_name'>Rossana</Card.Title>
               <Text />

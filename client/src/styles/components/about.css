@@ -1,0 +1,21 @@
+#about {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+#about .about-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #f1d5b8;
+}
+#about .profile-pic {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#about .about-description {
+  font-size: 16px;
+  margin: 30px;
+  padding: 20px;
+}/*# sourceMappingURL=about.css.map */

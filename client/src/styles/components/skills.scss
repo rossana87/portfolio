@@ -1,0 +1,19 @@
+#skills {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+
+  .skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #f1d5b8;
+  }
+}
