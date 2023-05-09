@@ -1,0 +1,29 @@
+#footer {
+  // display: flex;
+  // align-items: center;
+  // flex-direction: column;
+
+  .footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .footer-title {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-icon {
+    font-size: 1.5rem;
+  }
+
+
+}

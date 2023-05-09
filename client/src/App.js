@@ -10,23 +10,19 @@ import Contact from './components/contact/Contact'
 import Projects from './components/projects/Projects'
 
 const App = () => {
-  // useEffect(() => {
-  //   const getData = async () => {
-  //     const { data } = await axios.get('/api/products/') // * <-- replace with your endpoint
-  //     console.log(data)
-  //   }
-  //   getData()
-  // })
 
   return (
 
     <div className='site-wrapper'>
-      <NavBar />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
+      <BrowserRouter>
+        <NavBar />
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
+      </BrowserRouter>
     </div>
+
   )
 }
 
