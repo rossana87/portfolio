@@ -1,5 +1,6 @@
 #footer {
   display: flex;
+  margin-top: 30px !important;
 }
 #footer .footer-container {
   display: flex;
@@ -13,7 +14,7 @@
 #footer .footer-title a .footer-link {
   text-decoration: none;
 }
-#footer .footer-title .footer-icon {
+#footer .footer-title SiLinkedin {
   color: #f1d5b8 !important;
   padding-right: 10px !important;
   font-size: 2.5rem !important;

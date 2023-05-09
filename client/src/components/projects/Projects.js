@@ -32,7 +32,7 @@ const Projects = () => {
               <Card.Img variant="top" src={Wanderlust} />
               <Card.Body>
                 <Card.Title>Wanderlust</Card.Title>
-                <Card.Text>In this travelling app, the user can take some inspiration depending from the weather around the world.
+                <Card.Text className='wanderlust'>In this travelling app, the user can take some inspiration depending from the weather around the world.
                   It is a full-stack app built using a Express API to serve data from a Mongo Database and consumed by React.js app.
                 </Card.Text>
               </Card.Body>
