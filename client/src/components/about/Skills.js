@@ -2,6 +2,8 @@ import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
+import { BiChevronsRight } from 'react-icons/bi'
+
 
 const Skills = () => {
   return (
@@ -10,48 +12,48 @@ const Skills = () => {
         <div className='skills-container'>
           <h3 className='skills-header'>Skills</h3>
           <Row>
-            <Col lg={{ span: 5, offset: 1 }} className="mb-4 mb-lg-0">
+            <Col lg={6} className="mb-4 col-sm-6">
               <Card className="skills-card">
                 <Card.Body>
-                  <Card.Title className='skills-title'>Front-end Skills</Card.Title>
+                  <Card.Title className='skills-title'>Front-end</Card.Title>
                   <Row>
                     <Col xs={6}>
                       <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>React.js</li>
+                        <li><BiChevronsRight className='skills-icon' />HTML5</li>
+                        <li><BiChevronsRight className='skills-icon' />CSS3</li>
+                        <li><BiChevronsRight className='skills-icon' />JavaScript</li>
+                        <li><BiChevronsRight className='skills-icon' />React.js</li>
                       </ul>
                     </Col>
                     <Col xs={6}>
                       <ul>
-                        <li>Bootstrap</li>
-                        <li>SASS</li>
-                        <li>npm / pip</li>
+                        <li><BiChevronsRight className='skills-icon' />Bootstrap</li>
+                        <li><BiChevronsRight className='skills-icon' />SASS</li>
+                        <li><BiChevronsRight className='skills-icon' />npm / pip</li>
                       </ul>
                     </Col>
                   </Row>
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={{ span: 5 }} className="ml-lg-4">
+            <Col lg={6} className="mb-4 col-sm-6">
               <Card className="skills-card">
                 <Card.Body>
-                  <Card.Title className='skills-title'>Back-end Skills</Card.Title>
+                  <Card.Title className='skills-title'>Back-end</Card.Title>
                   <Row>
                     <Col xs={6}>
                       <ul>
-                        <li>Node.js</li>
-                        <li>Express</li>
-                        <li>MongoDB</li>
-                        <li>Mongoose</li>
+                        <li><BiChevronsRight className='skills-icon' />Node.js</li>
+                        <li><BiChevronsRight className='skills-icon' />Express</li>
+                        <li><BiChevronsRight className='skills-icon' />MongoDB</li>
+                        <li><BiChevronsRight className='skills-icon' />Mongoose</li>
                       </ul>
                     </Col>
                     <Col xs={6}>
                       <ul>
-                        <li>Python</li>
-                        <li>Django</li>
-                        <li>PostgreSQL</li>
+                        <li><BiChevronsRight className='skills-icon' />Python</li>
+                        <li><BiChevronsRight className='skills-icon' />Django</li>
+                        <li><BiChevronsRight className='skills-icon' />PostgreSQL</li>
                       </ul>
                     </Col>
                   </Row>
