@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
-import Gif from '../../images/woman.gif'
+import Profile from '../../images/me.jpg'
 
 import Text from '../home/Text'
 
@@ -17,7 +17,7 @@ const Home = () => {
               <Card.Title className='home_name'>Rossana</Card.Title>
               <Text />
             </Card.Body>
-            <Card.Img className='home_image' src='https://res.cloudinary.com/dtu5wu4i9/image/upload/v1683452977/Portfolio/cc7c4146-22c3-4772-9b78-dfb17f90dffb_loixus.jpg' />
+            <Card.Img className='home_image' src={Profile} />
           </Col>
         </Row>
       </Container>

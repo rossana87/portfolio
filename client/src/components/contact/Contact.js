@@ -16,9 +16,7 @@ const Contact = () => {
             <Card.Body className='contact-description'>
               Do you have a question, or would you like to say hello?
             </Card.Body>
-            <Button variant="light" className='contact-button'>
-              <Link className="contact-email" to={'mailto:rossana.ventrella@gmail.com'} as={Link} target="_blank">Email me</Link>
-            </Button>
+            <Link className="contact-email" to={'mailto:rossana.ventrella@gmail.com'} as={Link} target="_blank">Email me</Link>
           </Col>
         </Row>
         <Footer />

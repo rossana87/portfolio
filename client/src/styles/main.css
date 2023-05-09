@@ -8,6 +8,7 @@
   justify-content: center;
   margin-top: 20px;
   color: #f1d5b8;
+  text-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 #about .profile-pic {
   width: 20%;
@@ -16,9 +17,14 @@
   margin-top: 20px;
 }
 #about .about-description {
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   margin: 30px;
   padding: 20px;
+}
+#about .about-hobby {
+  -webkit-text-decoration: underline wavy #f1d5b8;
+          text-decoration: underline wavy #f1d5b8;
 }
 
 #skills {
@@ -26,21 +32,63 @@
   flex-direction: column;
   font-family: "Poppins", sans-serif;
 }
-#skills .skills-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 #skills .skills-header {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
+  color: #f1d5b8;
+}
+#skills .skills-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+#skills .skills-card {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+#skills ul {
+  list-style-type: none;
+  padding: 10px;
+}
+#skills .skills-icon {
+  color: #f1d5b8;
+  width: 20px;
+}
+
+#contact {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+#contact .contact-header {
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px;
+  color: #f1d5b8;
+}
+#contact .contact-email {
+  margin-top: 20px;
+  color: #f1d5b8;
+  border: 2px solid #f1d5b8;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 10px 20px;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+#contact .contact-button {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0px;
+  margin-bottom: 20px;
 }
 
 #home {
-  height: 70vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
@@ -93,6 +141,22 @@
 img {
   display: inline-block;
   width: 35px;
+}
+
+#projects {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+#projects .projects-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #f1d5b8;
+}
+#projects .projects-card {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .site-wrapper {

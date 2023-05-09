@@ -13,7 +13,7 @@ const Footer = () => {
         <Link className="footer-link" to={'https://github.com/rossana87'} as={Link} target="_blank">
           <FaGithub className='footer-icon' style={{ fontSize: '30px', color: '#f1d5b8' }} />
         </Link>
-        <Card.Text className='footer-text'>
+        <Card.Text className='footer-copyright' style={{ margin: '20px 20px', fontSize: '12px' }}>
           Copyright © Rossana Ventrella
         </Card.Text>
       </Container>
