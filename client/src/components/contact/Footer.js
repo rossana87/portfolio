@@ -6,20 +6,16 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'
 const Footer = () => {
   return (
     <section id='footer'>
-      <Container className='footer-container'>
-        <Card.Body className='footer-body'>
-          <Card.Title className='footer-title'>
-            <Link className="footer-link" to={'https://www.linkedin.com/in/rossana-ventrella/'} as={Link} target="_blank">
-              <div><FaLinkedin className="footer-icon" /></div>
-            </Link>
-            <Link className="footer-link" to={'https://github.com/rossana87'} as={Link} target="_blank">
-              <div><FaGithub className="footer-icon" /></div>
-            </Link>
-          </Card.Title>
-          <Card.Text>
-            Copyright © Rossana Ventrella
-          </Card.Text>
-        </Card.Body>
+      <Container className="text-center">
+        <Link className="footer-link" to={'https://www.linkedin.com/in/rossana-ventrella/'} as={Link} target="_blank">
+          <FaLinkedin classaName='footer-icon' style={{ fontSize: '30px', color: '#f1d5b8' }} />
+        </Link>
+        <Link className="footer-link" to={'https://github.com/rossana87'} as={Link} target="_blank">
+          <FaGithub className='footer-icon' style={{ fontSize: '30px', color: '#f1d5b8' }} />
+        </Link>
+        <Card.Text className='footer-text'>
+          Copyright © Rossana Ventrella
+        </Card.Text>
       </Container>
     </section>
   )
