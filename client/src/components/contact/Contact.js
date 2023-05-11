@@ -12,9 +12,9 @@ const Contact = () => {
         <Row className='justify-content-center'>
           <Col md={8}>
             <h3 className='contact-header'>Get in touch</h3>
-            <Card.Body className='contact-description'>
+            <Card.Text className='contact-description'>
               Do you have a question, or would you like to say hello?
-            </Card.Body>
+            </Card.Text>
             <Link className="contact-email" to={'mailto:rossana.ventrella@gmail.com'} as={Link} target="_blank">Email me</Link>
           </Col>
         </Row>

@@ -3,7 +3,6 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
-import Skills from '../about/Skills'
 
 
 const About = () => {
@@ -14,7 +13,6 @@ const About = () => {
           <Col md={8}>
             <h3 className='about-header'>About me</h3>
             <Card.Body>
-              {/* <Image className='profile-pic' src="https://res.cloudinary.com/dtu5wu4i9/image/upload/v1683452977/Portfolio/cc7c4146-22c3-4772-9b78-dfb17f90dffb_loixus.jpg" thumbnail /> */}
               <Card.Text className='about-description'>
                 I was introduced to coding at university and during this time I mainly used HTML and CSS, which I loved, but I felt quite restricted by the nature of the language. This led me to undertake an immersive Software Engineering Course at General Assembly to help me make a complete 180-degree change in my career as a developer.
                 <br />
@@ -24,7 +22,6 @@ const About = () => {
             </Card.Body>
           </Col>
         </Row>
-        <Skills />
       </Container>
 
     </section>

@@ -24,17 +24,16 @@ const Projects = () => {
             <Card className='projects-card'>
               <Card.Img variant="top" src={Cali} />
               <Card.Body>
-                <Card.Title>Cali-Kulture
-                  <Link className="footer-link" to={'https://cali-kulture.herokuapp.com/'} as={Link} target="_blank">
-                    <BiLink style={{ fontSize: '20px', color: '#224B24', marginRight: '10px', marginLeft: '10px' }} />
-                  </Link>
-                  <Link className="footer-link" to={'https://github.com/rossana87/Project_4'} as={Link} target="_blank">
-                    <SiGithub style={{ fontSize: '20px', color: '#224B24' }} />
-                  </Link>
+                <Card.Title className='projects-title'>Cali-Kulture
                 </Card.Title>
+                <Card.Text className='projects-subtitle'>Solo project - 1.5 weeks</Card.Text>
                 <Card.Text>Calisthenics is a booking app where the user can book classes of the day through the calendar only if they are registered.
                   It is a full-stack app built from scratch using Python and Django to serve data from PostgreSQL database, which was then consumed by React.js app.
                 </Card.Text>
+                <div className='projects-button-container'>
+                  <Link className="projects-button" to={'https://cali-kulture.herokuapp.com/'} as={Link} target="_blank">View site</Link>
+                  <Link className="projects-button" to={'https://github.com/rossana87/Project_4'} as={Link} target="_blank">GitHub</Link>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -43,17 +42,16 @@ const Projects = () => {
             <Card className='projects-card'>
               <Card.Img variant="top" src={Wanderlust} />
               <Card.Body>
-                <Card.Title>Wanderlust
-                  <Link className="footer-link" to={'https://project-3-wanderlust.herokuapp.com/'} as={Link} target="_blank">
-                    <BiLink style={{ fontSize: '20px', color: '#224B24', marginRight: '10px', marginLeft: '10px' }} />
-                  </Link>
-                  <Link className="footer-link" to={'https://github.com/rossana87/Project_3_Wanderlust'} as={Link} target="_blank">
-                    <SiGithub style={{ fontSize: '20px', color: '#224B24' }} />
-                  </Link>
+                <Card.Title className='projects-title'>Wanderlust
                 </Card.Title>
+                <Card.Text className='projects-subtitle'>Group project - 1 week</Card.Text>
                 <Card.Text className='wanderlust'>In this travelling app, the user can take some inspiration depending from the weather around the world.
                   It is a full-stack app built using an Express API to serve data from a Mongo Database and consumed by React.js app.
                 </Card.Text>
+                <div className='projects-button-container'>
+                  <Link className="projects-button" to={'https://project-3-wanderlust.herokuapp.com/'} as={Link} target="_blank">View site</Link>
+                  <Link className="projects-button" to={'https://github.com/rossana87/Project_3_Wanderlust'} as={Link} target="_blank">GitHub</Link>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -64,15 +62,14 @@ const Projects = () => {
             <Card className='projects-card'>
               <Card.Img variant="top" src={Harvard} />
               <Card.Body>
-                <Card.Title>Hardvard Art Museum
-                  <Link className="footer-link" to={'https://rosie-harvard-api.netlify.app/'} as={Link} target="_blank">
-                    <BiLink style={{ fontSize: '20px', color: '#224B24', marginRight: '10px', marginLeft: '10px' }} />
-                  </Link>
-                  <Link className="footer-link" to={'https://github.com/rossana87/Project_2'} as={Link} target="_blank">
-                    <SiGithub style={{ fontSize: '20px', color: '#224B24' }} />
-                  </Link>
+                <Card.Title className='projects-title'>Hardvard Art Museum
                 </Card.Title>
+                <Card.Text className='projects-subtitle'>Group project - 36 hours</Card.Text>
                 <Card.Text>In this 2-day hackathon we built a React app using the Harvard Museum API. I worked mainly on the React side, fetching data from the external API </Card.Text>
+                <div className='projects-button-container'>
+                  <Link className="projects-button" to={'https://rosie-harvard-api.netlify.app/'} as={Link} target="_blank">View site</Link>
+                  <Link className="projects-button" to={'https://github.com/rossana87/Project_2'} as={Link} target="_blank">GitHub</Link>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -81,16 +78,15 @@ const Projects = () => {
             <Card className='projects-card'>
               <Card.Img variant="top" src={Snake} />
               <Card.Body>
-                <Card.Title>Snake
-                  <Link className="footer-link" to={'https://rossana87.github.io/Project_1/'} as={Link} target="_blank">
-                    <BiLink className='footer-icon' style={{ fontSize: '20px', color: '#224B24', marginRight: '10px', marginLeft: '10px' }} />
-                  </Link>
-                  <Link className="footer-link" to={'https://github.com/rossana87/Project_1'} as={Link} target="_blank">
-                    <SiGithub className='footer-icon' style={{ fontSize: '20px', color: '#224B24' }} />
-                  </Link>
+                <Card.Title className='projects-title'>Snake
                 </Card.Title>
-                <Card.Text> First solo project built in vanilla JavaScript. I chose the game Snake as I was a huge fan of this game when I was a kid.
+                <Card.Text className='projects-subtitle'>Solo project - 1 week</Card.Text>
+                <Card.Text className='snake'> First solo project built in vanilla JavaScript. I chose the game Snake as I was a huge fan of this game when I was a kid.
                 </Card.Text>
+                <div className='projects-button-container'>
+                  <Link className="projects-button" to={'https://rossana87.github.io/Project_1/'} as={Link} target="_blank">View site</Link>
+                  <Link className="projects-button" to={'https://github.com/rossana87/Project_1'} as={Link} target="_blank">GitHub</Link>
+                </div>
               </Card.Body>
             </Card>
           </Col>
