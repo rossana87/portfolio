@@ -14,7 +14,7 @@ const About = () => {
             <h3 className='about-header'>About me</h3>
             <Card.Body>
               <Card.Text className='about-description'>
-                I was introduced to coding at university and during this time I mainly used HTML and CSS, which I loved, but I felt quite restricted by the nature of the language. This led me to undertake an immersive Software Engineering Course at General Assembly to help me make a complete 180-degree change in my career as a developer.
+                During my university years, I was introduced to coding, and while I loved using HTML and CSS, I felt limited by the language&apos;s constraints. This motivated me to broaden my knowledge to create more engaging websites, which led me to enroll in an immersive Software Engineering Course at General Assembly. This experience allowed me to make a complete career shift and pursue development as a profession.
                 <br />
                 <br />
                 When I&apos;m not coding, you&apos;ll find me practising <span className='about-hobby'> Calisthenics</span> or <span className='about-hobby'>knitting</span> on the sofa.

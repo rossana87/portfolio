@@ -3,8 +3,7 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import { Link } from 'react-router-dom'
-import { BiLink } from 'react-icons/bi'
-import { SiGithub } from 'react-icons/si'
+
 
 import Cali from '../../images/cali.png'
 import Wanderlust from '../../images/wanderlust.png'
@@ -27,7 +26,7 @@ const Projects = () => {
                 <Card.Title className='projects-title'>Cali-Kulture
                 </Card.Title>
                 <Card.Text className='projects-subtitle'>Solo project - 1.5 weeks</Card.Text>
-                <Card.Text>Calisthenics is a booking app where the user can book classes of the day through the calendar only if they are registered.
+                <Card.Text>Calisthenics is a booking app and the user can book classes of the day through the calendar.
                   It is a full-stack app built from scratch using Python and Django to serve data from PostgreSQL database, which was then consumed by React.js app.
                 </Card.Text>
                 <div className='projects-button-container'>
@@ -65,7 +64,7 @@ const Projects = () => {
                 <Card.Title className='projects-title'>Hardvard Art Museum
                 </Card.Title>
                 <Card.Text className='projects-subtitle'>Group project - 36 hours</Card.Text>
-                <Card.Text>In this 2-day hackathon we built a React app using the Harvard Museum API. I worked mainly on the React side, fetching data from the external API </Card.Text>
+                <Card.Text>In this hackathon we built a React app using the Harvard Museum API. I worked mainly on the React side, fetching data from the external API </Card.Text>
                 <div className='projects-button-container'>
                   <Link className="projects-button" to={'https://rosie-harvard-api.netlify.app/'} as={Link} target="_blank">View site</Link>
                   <Link className="projects-button" to={'https://github.com/rossana87/Project_2'} as={Link} target="_blank">GitHub</Link>
@@ -81,7 +80,7 @@ const Projects = () => {
                 <Card.Title className='projects-title'>Snake
                 </Card.Title>
                 <Card.Text className='projects-subtitle'>Solo project - 1 week</Card.Text>
-                <Card.Text className='snake'> First solo project built in vanilla JavaScript. I chose the game Snake as I was a huge fan of this game when I was a kid.
+                <Card.Text className='snake'> First solo project built in vanilla JavaScript. I chose the game Snake as I was a huge fan of this game when I was a kid. Would you like to play? Give it a go!
                 </Card.Text>
                 <div className='projects-button-container'>
                   <Link className="projects-button" to={'https://rossana87.github.io/Project_1/'} as={Link} target="_blank">View site</Link>
