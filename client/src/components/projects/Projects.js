@@ -26,10 +26,10 @@ const Projects = () => {
               <Card.Body>
                 <Card.Title>Cali-Kulture
                   <Link className="footer-link" to={'https://cali-kulture.herokuapp.com/'} as={Link} target="_blank">
-                    <BiLink style={{ fontSize: '20px', color: '#f1d5b8', marginRight: '10px', marginLeft: '10px' }} />
+                    <BiLink style={{ fontSize: '20px', color: '#224B24', marginRight: '10px', marginLeft: '10px' }} />
                   </Link>
                   <Link className="footer-link" to={'https://github.com/rossana87/Project_4'} as={Link} target="_blank">
-                    <SiGithub style={{ fontSize: '20px', color: '#f1d5b8' }} />
+                    <SiGithub style={{ fontSize: '20px', color: '#224B24' }} />
                   </Link>
                 </Card.Title>
                 <Card.Text>Calisthenics is a booking app where the user can book classes of the day through the calendar only if they are registered.
@@ -45,14 +45,14 @@ const Projects = () => {
               <Card.Body>
                 <Card.Title>Wanderlust
                   <Link className="footer-link" to={'https://project-3-wanderlust.herokuapp.com/'} as={Link} target="_blank">
-                    <BiLink style={{ fontSize: '20px', color: '#f1d5b8', marginRight: '10px', marginLeft: '10px' }} />
+                    <BiLink style={{ fontSize: '20px', color: '#224B24', marginRight: '10px', marginLeft: '10px' }} />
                   </Link>
                   <Link className="footer-link" to={'https://github.com/rossana87/Project_3_Wanderlust'} as={Link} target="_blank">
-                    <SiGithub style={{ fontSize: '20px', color: '#f1d5b8' }} />
+                    <SiGithub style={{ fontSize: '20px', color: '#224B24' }} />
                   </Link>
                 </Card.Title>
                 <Card.Text className='wanderlust'>In this travelling app, the user can take some inspiration depending from the weather around the world.
-                  It is a full-stack app built using a Express API to serve data from a Mongo Database and consumed by React.js app.
+                  It is a full-stack app built using an Express API to serve data from a Mongo Database and consumed by React.js app.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -66,10 +66,10 @@ const Projects = () => {
               <Card.Body>
                 <Card.Title>Hardvard Art Museum
                   <Link className="footer-link" to={'https://rosie-harvard-api.netlify.app/'} as={Link} target="_blank">
-                    <BiLink style={{ fontSize: '20px', color: '#f1d5b8', marginRight: '10px', marginLeft: '10px' }} />
+                    <BiLink style={{ fontSize: '20px', color: '#224B24', marginRight: '10px', marginLeft: '10px' }} />
                   </Link>
                   <Link className="footer-link" to={'https://github.com/rossana87/Project_2'} as={Link} target="_blank">
-                    <SiGithub style={{ fontSize: '20px', color: '#f1d5b8' }} />
+                    <SiGithub style={{ fontSize: '20px', color: '#224B24' }} />
                   </Link>
                 </Card.Title>
                 <Card.Text>In this 2-day hackathon we built a React app using the Harvard Museum API. I worked mainly on the React side, fetching data from the external API </Card.Text>
@@ -83,10 +83,10 @@ const Projects = () => {
               <Card.Body>
                 <Card.Title>Snake
                   <Link className="footer-link" to={'https://rossana87.github.io/Project_1/'} as={Link} target="_blank">
-                    <BiLink className='footer-icon' style={{ fontSize: '20px', color: '#f1d5b8', marginRight: '10px', marginLeft: '10px' }} />
+                    <BiLink className='footer-icon' style={{ fontSize: '20px', color: '#224B24', marginRight: '10px', marginLeft: '10px' }} />
                   </Link>
                   <Link className="footer-link" to={'https://github.com/rossana87/Project_1'} as={Link} target="_blank">
-                    <SiGithub className='footer-icon' style={{ fontSize: '20px', color: '#f1d5b8' }} />
+                    <SiGithub className='footer-icon' style={{ fontSize: '20px', color: '#224B24' }} />
                   </Link>
                 </Card.Title>
                 <Card.Text> First solo project built in vanilla JavaScript. I chose the game Snake as I was a huge fan of this game when I was a kid.

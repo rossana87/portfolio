@@ -2,19 +2,20 @@
   height: 80vh;
   display: flex;
   flex-direction: column;
-  // margin-top: 30px;
   align-items: center;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
 
   .home_hello {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
+    padding-bottom: 16px;
   }
 
   .home_name {
     font-size: 45px;
-    color: #f1d5b8;
+    color: #224B24;
+    padding-bottom: 16px;
   }
 
   .home_card_body {
@@ -30,7 +31,7 @@
     background-position: center;
     background-size: cover;
     display: block;
-    margin-top: 15px;
+    padding-top: 16px;
     margin: 0 auto;
     box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
     order: 1;
