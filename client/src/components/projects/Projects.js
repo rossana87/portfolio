@@ -44,7 +44,7 @@ const Projects = () => {
                 <Card.Title className='projects-title'>Wanderlust
                 </Card.Title>
                 <Card.Text className='projects-subtitle'>Group project - 1 week</Card.Text>
-                <Card.Text className='wanderlust'>In this travelling app, the user can take some inspiration depending from the weather around the world.
+                <Card.Text className='wanderlust'>With this travelling app, the user can take some inspiration depending on the weather around the world.
                   It is a full-stack app built using an Express API to serve data from a Mongo Database and consumed by React.js app.
                 </Card.Text>
                 <div className='projects-button-container'>
@@ -64,7 +64,7 @@ const Projects = () => {
                 <Card.Title className='projects-title'>Hardvard Art Museum
                 </Card.Title>
                 <Card.Text className='projects-subtitle'>Group project - 36 hours</Card.Text>
-                <Card.Text>In this hackathon we built a React app using the Harvard Museum API. I worked mainly on the React side, fetching data from the external API </Card.Text>
+                <Card.Text>In this hackathon we built a React app using the Harvard Museum API. I worked mainly on the React side, fetching data from the external API. </Card.Text>
                 <div className='projects-button-container'>
                   <Link className="projects-button" to={'https://rosie-harvard-api.netlify.app/'} as={Link} target="_blank">View site</Link>
                   <Link className="projects-button" to={'https://github.com/rossana87/Project_2'} as={Link} target="_blank">GitHub</Link>
@@ -80,7 +80,7 @@ const Projects = () => {
                 <Card.Title className='projects-title'>Snake
                 </Card.Title>
                 <Card.Text className='projects-subtitle'>Solo project - 1 week</Card.Text>
-                <Card.Text className='snake'> First solo project built in vanilla JavaScript. I chose the game Snake as I was a huge fan of this game when I was a kid. Would you like to play? Give it a go!
+                <Card.Text className='snake'> First solo project built in vanilla JavaScript. I chose the game Snake as I was a huge fan of this game when I was a kid.
                 </Card.Text>
                 <div className='projects-button-container'>
                   <Link className="projects-button" to={'https://rossana87.github.io/Project_1/'} as={Link} target="_blank">View site</Link>
