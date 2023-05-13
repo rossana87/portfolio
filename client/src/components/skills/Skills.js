@@ -60,6 +60,17 @@ const Skills = () => {
                 </Card.Body>
               </Card>
             </Col>
+            <Card.Body>
+              <Card.Title className='skills-title'>...and my Soft Skills:</Card.Title>
+              <Card.Text className='soft-skills-text'>
+                <ul>
+                  <li><BiChevronsRight className='skills-icon' />Communication</li>
+                  <li><BiChevronsRight className='skills-icon' />Project Management</li>
+                  <li><BiChevronsRight className='skills-icon' />Growth Mindset</li>
+                  <li><BiChevronsRight className='skills-icon' />Multi-tasking</li>
+                </ul>
+              </Card.Text>
+            </Card.Body>
           </Row>
         </div>
       </Container>

@@ -32,4 +32,13 @@
     width: 20px;
   }
 
+  .soft-skills-text {
+    justify-content: center;
+    display: flex;
+
+    .soft-skills-text ul {
+      align-items: center;
+    }
+  }
+
 }
