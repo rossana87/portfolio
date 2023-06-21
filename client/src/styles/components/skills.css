@@ -1,0 +1,28 @@
+#skills {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+#skills .skills-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  color: #f1d5b8;
+}
+#skills .skills-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+#skills .skills-card {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+#skills ul {
+  list-style-type: none;
+  padding: 10px;
+}
+#skills .skills-icon {
+  color: #f1d5b8;
+  width: 20px;
+}/*# sourceMappingURL=skills.css.map */

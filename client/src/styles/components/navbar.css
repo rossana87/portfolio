@@ -1,0 +1,14 @@
+img {
+  display: inline-block;
+  width: 35px;
+}
+
+.navbar {
+  color: black;
+}
+
+.navbar :hover {
+  color: #f1d5b8;
+  transform: scale(1);
+  text-shadow: none;
+}/*# sourceMappingURL=navbar.css.map */

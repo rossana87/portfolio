@@ -1,0 +1,48 @@
+#skills {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+
+  .skills-header {
+    display: flex;
+    justify-content: center;
+    margin: 40px 40px;
+    color: #224B24;
+  }
+
+  .skills-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: #224B24;
+  }
+
+  .skills-card {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  .skills-icon {
+    color: #224B24;
+    width: 20px;
+  }
+
+  .soft-skills-text {
+    justify-content: center;
+    display: flex;
+
+    .soft-skills-text ul {
+      align-items: center;
+    }
+
+    // .soft {
+    //   text-align: center;
+    // }
+  }
+
+}

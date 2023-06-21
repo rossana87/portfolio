@@ -1,0 +1,61 @@
+#projects {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+
+  .projects-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #224B24;
+  }
+
+  .projects-card {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+
+    .projects-title {
+      color: #224B24;
+      display: flex;
+      justify-content: center;
+    }
+
+    .projects-subtitle {
+      color: #224B24;
+      display: flex;
+      justify-content: center;
+    }
+
+    .wanderlust {
+      padding-bottom: 20px;
+    }
+
+    // .snake {
+    //   padding-bottom: 20px;
+    // }
+
+    .projects-button-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    .projects-button {
+      text-decoration: none;
+      color: #224B24;
+      border: 2px solid #224B24;
+      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+      padding: 10px 10px;
+      width: 100px;
+      text-align: center;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .projects-button:hover {
+      color: #fff;
+      background-color: #224B24;
+      border-color: #224B24;
+    }
+  }
+}

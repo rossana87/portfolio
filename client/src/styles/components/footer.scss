@@ -1,0 +1,31 @@
+#footer {
+  display: flex;
+  margin-top: 30px !important;
+
+  .footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-title {
+    display: flex;
+    flex-direction: row;
+
+    a .footer-link {
+      text-decoration: none;
+    }
+
+    SiLinkedin {
+      color: #224B24 !important;
+      padding-right: 10px !important;
+      font-size: 2.5rem !important;
+    }
+  }
+
+  .footer-copyright {
+    margin: 20px 20px;
+    font-size: 12px;
+  }
+
+}
