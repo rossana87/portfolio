@@ -12,7 +12,7 @@ const Skills = () => {
         <div className='skills-container'>
           <h3 className='skills-header'>Skills</h3>
           <Row>
-            <Col lg={6} className="mb-4 col-sm-6">
+            <Col sm={6} className="mb-4 col-sm-6">
               <Card className="skills-card">
                 <Card.Body>
                   <Card.Title className='skills-title'>Front-end</Card.Title>
@@ -36,7 +36,7 @@ const Skills = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={6} className="mb-4 col-sm-6">
+            <Col sm={6} className="mb-4 col-sm-6">
               <Card className="skills-card">
                 <Card.Body>
                   <Card.Title className='skills-title'>Back-end</Card.Title>
