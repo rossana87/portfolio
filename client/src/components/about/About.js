@@ -21,7 +21,10 @@ const About = () => {
                 During my university years, I was introduced to coding, and while I loved using HTML and CSS, I felt limited by the language&apos;s constraints. This motivated me to broaden my knowledge to create more engaging websites, which led me to enrol in an immersive Software Engineering Course at General Assembly. This experience is allowing me to make a complete career shift and pursue development as a profession.
                 <br />
                 <br />
-                In my free time, you&apos;ll find me practising Calisthenics. This is definitely my medicine for keeping myself healthy and happy. Committing to Calisthenics has helped me to build habits and consistency. During evenings, I enjoy spending my time knitting while relaxing on the sofa or perhaps even unravelling an old project.
+                I&apos;m passionate about diversifying the world of tech and building things for the web, and I&apos;m looking for a full-time role as a Software Developer in a stimulating environment where I can grow professionally within a collaborative team.
+                <br />
+                <br />
+                In my free time, you&apos;ll find me practising Calisthenics. This is definitely my medicine for keeping myself healthy and happy. Committing to Calisthenics has helped me to build habits and consistency.  {/*During evenings, I enjoy spending my time knitting while relaxing on the sofa or perhaps even unravelling an old project. */}
               </Card.Text>
             </Card.Body>
           </Col>
