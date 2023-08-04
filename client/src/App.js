@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
-import axios from 'axios'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { createContext, useState  } from 'react'
+import { BrowserRouter } from 'react-router-dom'
+
 
 // Components
 import Home from './components/home/Home'
@@ -13,8 +13,7 @@ import Skills from './components/skills/Skills'
 const App = () => {
 
   return (
-
-    <div className='site-wrapper'>
+    <div className='site-wrapper'>  
       <BrowserRouter>
         <NavBar />
         <Home />
@@ -22,7 +21,7 @@ const App = () => {
         <Projects />
         <Skills />
         <Contact />
-      </BrowserRouter>
+      </BrowserRouter>   
     </div>
 
   )
